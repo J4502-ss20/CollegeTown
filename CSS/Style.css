@@ -67,6 +67,7 @@ a:hover, a:active {
   border-radius: 5px;
 	margin: 45px auto;
 }
+
 .navitem {
 	color: #000;
 	font-family: "Montserrat", Helvetica, sans-serif;
@@ -75,4 +76,8 @@ a:hover, a:active {
 	margin: 5px;
 	background: #193446;
 	border-radius: 7px;
+}
+
+.headline {
+	margin-bottom: 0;
 }
