@@ -7,64 +7,124 @@
 	<title>Collegetown</title>
 	<meta http-equiv="content-type"
 		content="text/html;charset=utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="New_style.css">
-    <link rel="stylesheet" type="text/css" href="flexbox1.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Flexbox.css">
 </head>
 
 <body>
-  <div id= "container">
-    <div id="header">
-      <ul id="nav">
+
+
+      <div id="nav">
         <div class="navcontainer">
-        <div class="item-1 item"><li><a href="New_index.html">About</a></li></div>
-        <div class="item-2 item"><li><a href="https://elizabethustinov.myportfolio.com" target="_blank">Work</a></li></div>
-        <div class="item-3 item"><li><a href="https://drive.google.com/file/d/1C2j0vjZoG0C9D0mRvViFPIQPyNiHEUSy/view" target="_blank">Resume</a></li></div>
+        <div class="item-1 navitem"><a href="https://www.columbiamissourian.com/" target="_blank">
+        <img src="Assets/missourian-logo.png" width="170px" height="30px" alt="Link back to the Missourian main website"/></a></div> <!--replace w png logo!!!! -->
+        <div class="item-2 navitem"><a href="LandingPage.html">College Town</a></div>
+        <div class="navitem"><a href="AboutPage.html" target="_blank">About</a></div>
+        <div class="navitem"><a href="SearchResults.html" target="_blank">Search</a></div> <!--tbh i'm just gonna make the search a button rn-->
         </div>
-      </ul>
-    </div>
+      </div>
 
-<!--This is a comment. It won't show up in your browser, only in the page source-->
-<h1>About Me</h1>
-	<p>My name is Elizabeth Ustinov.
-    I am a student studying Strategic Communication (emphasis in digital strategy and art direction) and Information Technology at the University of Missouri-Columbia.
-    Some of my other favorite creative outlets are illustration and videography.
-    I’m currently working toward a career in user experience/product design.</p>
-  <br/>
-  <h1>Contact Me</h1>
+<!--splash photo, figure out text and button -->
+<a href="ArticleView.html" target="_blank">
+<img class="landingphoto" src="assets/splashphoto.png" width="100%" height="auto" alt="Splash Photo"/>
+</a>
 
-  <a href="mailto:eauf4c@mail.missouri.edu">
-    <img class="logo" src="img/mail.png" height="25" width="25" alt="Email Link"/></a>
+<!--Started the container here for the margins, ending it before the footer-->
+<div id= "container">
 
-  <a href ="https://twitter.com/eaustinov" target="_blank">
-    <img class="logo" src="img/twitter.png" height="25" width="30" alt="Twitter Link"/></a>
-<p>
-    <a href="mailto:eauf4c@mail.missouri.edu">
-    <img src="img/elizabeth.jpg" height="300" width="300" alt="A photo of Elizabeth Ustinov."/></a>
-</p>
+<h1>Stories</h1>
+<div class="homearticle">
+<img class="smallphoto" src="assets/StudentFair.png" width="360" height="auto" alt="Photo of students getting involved with clubs"/>
+<span><h2 class="headline">Students get involved with new clubs, opportunities at Mizzou</h2>
+  <p>Choosing which club to join can be intimidating for some.</p></span>
+</div>
+  <!--more stories later!!! -->
 
-<br/>
-<h1>Links</h1>
+<h1>Social Media</h1>
+<!--Embedded twitter feed of the missourian rn-->
+<a class="twitter-timeline" data-lang="en" data-width="400" data-height="500" href="https://twitter.com/CoMissourian?ref_src=twsrc%5Etfw">Tweets by CoMissourian</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <ul>
-    <li><a href="old_index.html" target="_blank">A link to my unstyled website</a></li>
-    <li><a href="https://uxplanet.org/predicting-20-ux-trends-for-2020-6e20d7ef928e" target="_blank">UX Trends 2020</a></li>
-    <li><a href="https://letsxd.com/getting-started" target="_blank">Adobe XD tutorials</a></li>
-    <li><a href="https://www.codecademy.com/courses/learn-html/lessons/common-html-elements/exercises/review-tags-html" target="_blank">HTML Tags Tutorial</a></li>
-  </ul>
+    <img src="Assets/AdPlaceholder.png" width="360" height="auto" alt="Advertisement"/>
+    <img src="Assets/AdPlaceholder.png" width="360" height="auto" alt="Advertisement"/>
 <br/>
 
-<h1>Fun Facts <img src="img/emoji.png" height="30" width="30" alt="Party Popper Emoji"/></h1>
-  <ul style="background-color: #F5DDDD;">
-    <li>I am a radio DJ at KCOU 88.1FM.</li>
-    <li>I can speak Russian.</li>
-    <li>I climbed Mt. Fuji this past summer.</li>
-  </ul>
+<h1>PDFs</h1>
 
+<div class="pdfs">
+  <div id="pdf">
+  <a href="https://www.bluetoad.com/publication/?m=37132&i=603222&p=2" target="_blank">
+    <img class="PDF" src="Assets/PDF2019.png" alt="2019 PDF of Collegetown">
+  </a>
 
-<p id="footer">Missourian footer here.</p>
+  <a href="https://www.bluetoad.com/publication/?m=37132&i=603222&p=2" target="_blank">
+    <img class="PDF" src="Assets/PDF2018.png" alt="2018 PDF of Collegetown">
+  </a>
+
+  <a href="https://www.bluetoad.com/publication/?m=37132&i=603222&p=2" target="_blank">
+    <img class="PDF" src="Assets/PDF2017.png" alt="2017 PDF of Collegetown">
+  </a>
+
+  <a href="https://www.bluetoad.com/publication/?m=37132&i=603222&p=2" target="_blank">
+    <img class="PDF" src="Assets/PDF2016.png" alt="2016 PDF of Collegetown">
+  </a>
+</div>
+</div>
+
+<br/>
 
 </div>
+
+<!-- Footer has a lot of code because of social media icons / links to pages! -->
+<div id="footer">
+<div class="footer">
+
+<!-- Missourian Links -->
+<div class="footer-item">
+<a href="https://www.columbiamissourian.com/" target="_blank">
+<img src="Assets/missourian-logo.png" width="200px" height="auto" alt="Link back to the Missourian main website"/></a>
+<br/>
+<!--social-->
+<a href="http://www.facebook.com/ColumbiaMissourian" target="_blank">
+  <img class="social" src="Assets/Facebook-logo.png" alt="Missourian Facebook link"/>
+</a>
+<a href="https://twitter.com/CoMissourian" target="_blank">
+  <img class="social" src="Assets/Twitter-logo.png" alt="Missourian Twitter link"/>
+</a>
+<a href="https://www.youtube.com/user/ColumbiaMissourian" target="_blank">
+  <img class="social" src="Assets/Youtube-logo.png" alt="Missourian Youtube link"/>
+</a>
+<a href="https://www.instagram.com/comissourian/?hl=en" target="_blank">
+  <img class="social" src="Assets/Instagram-logo.png" alt="Missourian Instagram link"/>
+</a>
+<!--other Missourian Links -->
+<br/>
+<a href="https://www.columbiamissourian.com/about/" target="_blank">About the Missourian</a>
+<br/>
+<a href="https://www.columbiamissourian.com/site/contact.html/" target="_blank">Contact Us</a>
+<br/>
+<a href="https://www.columbiamissourian.com/subscribe/" target="_blank">Subscriptions</a>
+<br/>
+<a href="https://www.columbiamissourian.com/content/tncms/live/columbiamissourian.com/site/advertise.html" target="_blank">Advertise with Us</a>
+<br/>
+<a href="https://www.columbiamissourian.com/search/" target="_blank">Search</a>
+<br/>
+
+</div>
+
+<!--Mizzou Links-->
+<div class="footer-item">
+<h2 style="color: white; font-size: 1.1em;">University of Missouri-Columbia</h2>
+<!--put social and others links here -->
+</div>
+
+
+
+</div>
+</div>
+
+
 
 </body>
 
