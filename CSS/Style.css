@@ -75,6 +75,11 @@ a:hover, a:active {
 	color: #C4D4E0;
 }
 
+.footer-item {
+	padding: 10px;
+	align-self: center;
+}
+
 .navcontainer {
 	/*background: #C4D4E0; */
 	background: #193446;
@@ -136,6 +141,11 @@ a:hover, a:active {
 	padding-right: 600px;
 }
 */
+
+.articletext {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 #button a:link, a:visited {
 	font-size: 1.2em;
