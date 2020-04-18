@@ -1,11 +1,11 @@
 /* =================================
   Flexbox
-==================================== */
+====================================*/
 
-.navcontainer {
-	display: flex;
-	flex-direction: column;
+nav ul {
+	display: none;
 }
+
 
 .homearticle {
 	display: flex;
@@ -21,8 +21,9 @@
 	display: flex;
 }
 
-@media (min-width: 400px) {
-		.navcontainer {
+@media (min-width: 600px) {
+		nav {
+			display: flex;
 			flex-direction: row;
 			justify-content: center;
 			flex-wrap: wrap-reverse;
@@ -56,3 +57,31 @@
 			flex-wrap: wrap-reverse;
 			align-items: center;
 		}
+
+
+/* grid functions */
+
+/* javascript functinos */
+
+.menu-trigger {
+   font-size: 1.75em;
+   width: 2em;
+ }
+
+
+@media screen and (min-width:600px) {
+  nav ul {
+		 display: flex;
+		 background: #193446;
+	 	 width: 100%;
+	 	 padding: 10px;
+		 margin: 15px;
+	 }
+
+
+  .menu-trigger {
+	   display: none;
+	 }
+
+
+}

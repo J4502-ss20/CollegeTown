@@ -20,6 +20,16 @@ h2 {
 	color: black;
 }
 
+a:link, a:visited {
+	color: #5D7B8F;
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #C4D4E0;
+}
 
 /*a:link, a:visited {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -37,19 +47,24 @@ a:hover, a:active {
 	width: 95%;
 	margin: 0 auto;
 }
-
-#nav {
+ /*
+nav {
 	padding: 0;
+} */
+
+nav li {
+	list-style: none;
+	padding: 10px;
 }
 
-#nav a:link, #nav a:visited {
-	color: #FFF;
+nav a:link, nav a:visited {
+	color: white;
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 }
 
-#nav a:hover, #nav a:active {
+nav a:hover, nav a:active {
 	color: #C4D4E0;
 }
 
@@ -79,23 +94,28 @@ a:hover, a:active {
 	padding: 10px;
 	align-self: center;
 }
-
-.navcontainer {
-	/*background: #C4D4E0; */
+/*
+nav ul {
 	background: #193446;
+	width: 100%;
+	padding: 10px;*/
   /*border-radius: 5px;
 	margin: 45px auto; */
 
 }
 
-.navitem {
+nav li {
 	color: #000;
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: 700;
 	padding: 15px;
-	margin: 5px;
+	margin: 10px;
 	background: #193446;
 	border-radius: 7px;
+}
+
+.header {
+	background: #193446;
 }
 
 .headline {
