@@ -7,7 +7,7 @@ nav ul {
 }
 
 
-.homearticle {
+.stories {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -21,6 +21,11 @@ nav ul {
 	display: flex;
 }
 
+.buttons {
+	display: flex;
+	flex-direction: column;
+}
+
 @media (min-width: 600px) {
 		nav {
 			display: flex;
@@ -30,13 +35,21 @@ nav ul {
 			align-items: center;
 		}
 
-		.homearticle {
+		.stories {
 			flex-direction: row;
 		}
 
 		.pdfs {
 			flex-direction: row;
 			display: flex;
+		}
+
+		#container {
+			width: 80%;
+			margin: 0 auto;
+		}
+		.buttons {
+			flex-direction: row;
 		}
 }
 
