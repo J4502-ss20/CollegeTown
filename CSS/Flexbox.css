@@ -19,11 +19,18 @@ nav ul {
 
 .smallphoto {
 	display: flex;
+	align-items: center;
 }
 
 .buttons {
 	display: flex;
 	flex-direction: column;
+}
+
+.authorbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 @media (min-width: 600px) {
@@ -37,6 +44,7 @@ nav ul {
 
 		.stories {
 			flex-direction: row;
+
 		}
 
 		.pdfs {
@@ -50,6 +58,12 @@ nav ul {
 		}
 		.buttons {
 			flex-direction: row;
+			justify-content: center;
+		}
+
+		.authorbox {
+			flex-direction: row;
+			justify-content: space-between;
 		}
 }
 

@@ -170,6 +170,10 @@ nav li {
 }
 */
 
+.authorbox {
+	padding: 10px;
+}
+
 .articletext {
 	margin-left: 10px;
 	margin-right: 10px;
