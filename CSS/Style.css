@@ -61,6 +61,10 @@ nav a:link, nav a:visited {
 	text-decoration: none;
 }
 
+.item-1 {
+	font-size: 1.2em;
+}
+
 nav a:hover, nav a:active {
 	color: #C4D4E0;
 }
