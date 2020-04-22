@@ -20,39 +20,34 @@ h2 {
 	color: black;
 }
 
-a {
-	font-family: "Montserrat", Helvetica, sans-serif;
-	font-weight: 700;
-	text-decoration: none;
-}
-a:link, a:visited {
+
+
+a h1:hover, a h1:active {
 	color: #5D7B8F;
 }
 
-a:hover, a:active {
-	color: #C4D4E0;
+a h2:hover, a h2:active {
+	color: #5D7B8F;
 }
 
-/*a:link, a:visited {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	font-size: 1em;
-	color: #d57070;
+a p:hover, a p:active {
+	color: #5D7B8F;
+}
+
+.smallphoto:hover {
+	opacity: 0.3;
+}
+
+a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
-	color: #70d5d5;
-}  */
 
 #container {
 	width: 100%;
 	margin: 0 auto;
 }
- /*
-nav {
-	padding: 0;
-} */
+
 
 nav li {
 	list-style: none;
@@ -96,21 +91,13 @@ nav a:hover, nav a:active {
 	padding: 10px;
 	align-self: center;
 }
-/*
-nav ul {
-	background: #193446;
-	width: 100%;
-	padding: 10px;*/
-  /*border-radius: 5px;
-	margin: 45px auto; */
 
-}
 
 nav li {
 	color: #000;
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: 700;
-	padding: 15px;
+	padding: 10px;
 	margin: 10px;
 	background: #193446;
 	border-radius: 7px;
@@ -125,10 +112,7 @@ nav li {
 }
 
 .smallphoto {
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 10px;
+
 	width: 360px;
 	height: auto;
 }
@@ -170,8 +154,13 @@ nav li {
 }
 */
 
-.authorbox {
-	padding: 10px;
+.authorbox{
+	margin-top: 0.5em;
+
+}
+
+.authorbox img {
+	max-width: 200px;
 }
 
 .articletext {

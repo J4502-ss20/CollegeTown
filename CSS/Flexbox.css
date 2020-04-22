@@ -67,9 +67,18 @@ nav ul {
 			justify-content: center;
 		}
 
-		.authorbox {
+		.authorbox{
+			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+		}
+
+
+		.smallphoto {
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 20px;
+			padding-bottom: 10px;
 		}
 }
 
