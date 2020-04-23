@@ -177,7 +177,6 @@ nav li {
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: bold;
 	color: white;
-	text-decoration: none;
 }
 
 #button a:hover {
@@ -187,7 +186,7 @@ nav li {
 #button {
 	background-color: #193446;
   border-radius: 5px;
-	margin: 10px auto;
+	margin: 20px auto;
 	max-width: 300px;
 	max-height: 150px;
 	text-align: center;
