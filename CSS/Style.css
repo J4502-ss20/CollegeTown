@@ -30,8 +30,13 @@ a h2:hover, a h2:active {
 	color: #5D7B8F;
 }
 
+a p {
+	color: #193446;
+	text-decoration: underline;
+}
 a p:hover, a p:active {
 	color: #5D7B8F;
+	text-decoration: underline;
 }
 
 .smallphoto:hover {
@@ -40,6 +45,15 @@ a p:hover, a p:active {
 
 a {
 	text-decoration: none;
+}
+
+.stories  {
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.stories:last-of-type {
+  border-bottom: none;
 }
 
 
@@ -152,19 +166,14 @@ nav li {
 	font-weight: normal;
 	font-family: "Montserrat", Helvetica, sans-serif;
 }
-/* I tried to make this work for mobile and web but it wasn't working... so I left it out for now
-.articletext {
-	padding-right: 600px;
-}
-*/
 
 .authorbox{
 	margin-top: 0.5em;
-
 }
 
 .authorbox img {
 	max-width: 200px;
+	margin: 10px;
 }
 
 .articletext {
@@ -186,7 +195,7 @@ nav li {
 #button {
 	background-color: #193446;
   border-radius: 5px;
-	margin: 20px auto;
+	margin: 10px;
 	max-width: 300px;
 	max-height: 150px;
 	text-align: center;
