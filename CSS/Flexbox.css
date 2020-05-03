@@ -6,6 +6,11 @@ nav ul {
 	display: none;
 }
 
+/* #container {
+	width: 80%;
+	margin: 0 auto;
+} */
+
 .landingphoto {
 	display: flex;
 }
@@ -58,10 +63,10 @@ nav ul {
 			display: flex;
 		}
 
-		#container {
+		/* #container {
 			width: 80%;
 			margin: 0 auto;
-		}
+		} */
 		.buttons {
 			flex-direction: row;
 			justify-content: center;
@@ -155,6 +160,27 @@ nav ul {
 	 		 grid-area: d;
 	 	 } */
 }
+
+/* .indexbody {
+	display: grid;
+	grid-template-columns: 200px 1fr 200px 1fr;
+	grid-template-areas:
+	"a b c d"
+	"e f g h";
+
+}
+		.homestory1photo {
+			grid-area: a;
+		}
+		.homestory1text {
+			grid-area: b;
+		}
+		.homestory2photo {
+			grid-area: c;
+		}
+		.homestory2text {
+			grid-area: d;
+		} */
 /*
 	 .stories {
 		display: grid;

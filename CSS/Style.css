@@ -20,7 +20,46 @@ h2 {
 	color: black;
 }
 
+header {
+    background: blue;
+    background-image: url("../Assets/splashphoto.png");
+    background-size: cover;
+    padding: 2em;
+    /* width: 100vw; */
+    height: 100vh;
+		/* display: flex; */
+}
 
+/* header img {
+	display: flex;
+} */
+
+header h1{
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	color: white;
+	margin-top: 410px;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+header p{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: white;
+	margin-top: 15px;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+header #button {
+	margin-top: 20px;
+}
+
+
+body {
+    margin:0;
+}
 
 a h1:hover, a h1:active {
 	color: #5D7B8F;
@@ -57,15 +96,14 @@ a {
 }
 
 
-#container {
+/* #container {
 	width: 100%;
 	margin: 0 auto;
-}
+} */
 
 
 nav li {
 	list-style: none;
-	padding: 10px;
 }
 
 nav a:link, nav a:visited {
@@ -115,13 +153,13 @@ nav li {
 	color: #000;
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: 700;
-	padding: 10px;
+	padding: 5px;
 	margin: 10px;
 	background: #193446;
-	border-radius: 7px;
+
 }
 
-.header {
+.head {
 	background: #193446;
 }
 
@@ -189,7 +227,10 @@ nav li {
 }
 
 #button a:hover {
-	color: #C4D4E0;
+	color: #193446;
+	background-color: #C4D4E0;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 #button {
@@ -199,5 +240,5 @@ nav li {
 	max-width: 300px;
 	max-height: 150px;
 	text-align: center;
-	padding: 15px 32px;
+	padding: 15px;
 }
