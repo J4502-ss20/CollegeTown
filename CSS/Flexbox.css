@@ -78,6 +78,10 @@ nav ul {
 			justify-content: space-between;
 		}
 
+		article {
+			padding: 20px;
+			max-width: 900px;
+		}
 
 		.smallphoto {
 			padding-left: 20px;
@@ -113,8 +117,9 @@ nav ul {
 /* javascript functinos */
 
 .menu-trigger {
-   font-size: 1.75em;
-   width: 2em;
+   font-size: 2em;
+   width: 4em;
+	 height: 3em;
  }
 
 
@@ -161,12 +166,17 @@ nav ul {
 	 	 } */
 }
 
-/* .indexbody {
+
+@media screen and (min-width:1250px) {
+
+.indexbody {
 	display: grid;
-	grid-template-columns: 200px 1fr 200px 1fr;
+	grid-template-columns: 1fr 1fr .5fr;
 	grid-template-areas:
-	"a b c d"
-	"e f g h";
+	"a b z"
+	"c d ."
+	"e f z"
+	"g . z";
 
 }
 		.homestory1photo {
@@ -180,7 +190,22 @@ nav ul {
 		}
 		.homestory2text {
 			grid-area: d;
-		} */
+		}
+		.homestory3photo {
+			grid-area: e;
+		}
+		.homestory3text {
+			grid-area: f;
+		}
+		.homestory4text {
+			grid-area: g;
+		}
+
+		.ad {
+			grid-area: z;
+		}
+
+	}
 /*
 	 .stories {
 		display: grid;

@@ -214,9 +214,13 @@ nav li {
 	margin: 10px;
 }
 
-.articletext {
+article {
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+article p {
+	line-height: 1.4em;
 }
 
 #button a:link, a:visited {
