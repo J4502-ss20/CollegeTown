@@ -20,12 +20,12 @@ h2 {
 	color: black;
 }
 
-header {
+/* header {
     background: blue;
     background-image: url("../Assets/splashphoto.png");
     background-size: cover;
     padding: 2em;
-    /* width: 100vw; */
+    /* width: 100vw;
     height: 100vh;
 		/* display: flex; */
 }
@@ -34,7 +34,7 @@ header {
 	display: flex;
 } */
 
-header h1{
+/* header h1{
 	font-family: "Montserrat", Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 2.5em;
@@ -54,11 +54,11 @@ header p{
 
 header #button {
 	margin-top: 20px;
-}
+}  */
 
 
 body {
-    margin:0;
+    margin:0px;
 }
 
 a h1:hover, a h1:active {
@@ -105,6 +105,8 @@ a {
 nav li {
 	list-style: none;
 }
+
+
 
 nav a:link, nav a:visited {
 	color: white;
@@ -168,7 +170,6 @@ nav li {
 }
 
 .smallphoto {
-
 	width: 360px;
 	height: auto;
 }

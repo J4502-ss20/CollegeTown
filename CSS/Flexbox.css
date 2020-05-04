@@ -6,10 +6,10 @@ nav ul {
 	display: none;
 }
 
-/* #container {
-	width: 80%;
+#container {
+	width: 95%;
 	margin: 0 auto;
-} */
+}
 
 .landingphoto {
 	display: flex;
@@ -34,6 +34,7 @@ nav ul {
 .stories {
 	display: flex;
 	flex-direction: column;
+	flex-wrap:wrap;
 	/*
 	max-width: 90%;
 	grid-gap: 0;
@@ -63,10 +64,10 @@ nav ul {
 			display: flex;
 		}
 
-		/* #container {
-			width: 80%;
+		#container {
+			width: 90%;
 			margin: 0 auto;
-		} */
+		}
 		.buttons {
 			flex-direction: row;
 			justify-content: center;
@@ -141,6 +142,7 @@ nav ul {
 	 .stories {
 		 flex-direction: row;
 		 display: flex;
+		 flex-wrap: wrap;
 	 }
 
 	 /* article {
@@ -171,38 +173,43 @@ nav ul {
 
 .indexbody {
 	display: grid;
-	grid-template-columns: 1fr 1fr .5fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	width: 100%;
 	grid-template-areas:
 	"a b z"
-	"c d ."
-	"e f z"
-	"g . z";
+	"c d y";
+	/* "e g ."
+	"f . z"; */
 
 }
-		.homestory1photo {
+		.homestory1 {
 			grid-area: a;
 		}
-		.homestory1text {
+		/* .homestory1text {
+			grid-area: b;
+		} */
+		.homestory2 {
 			grid-area: b;
 		}
-		.homestory2photo {
+		/* .homestory2text {
+			grid-area: d;
+		} */
+		.homestory3 {
 			grid-area: c;
 		}
-		.homestory2text {
-			grid-area: d;
-		}
-		.homestory3photo {
-			grid-area: e;
-		}
-		.homestory3text {
+		/* .homestory3text {
 			grid-area: f;
-		}
-		.homestory4text {
-			grid-area: g;
+		} */
+		.homestory4 {
+			grid-area: d;
 		}
 
 		.ad {
 			grid-area: z;
+		}
+		.ad2 {
+			grid-area: y;
 		}
 
 	}
