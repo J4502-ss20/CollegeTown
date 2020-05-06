@@ -25,10 +25,19 @@ nav ul {
 	flex-direction: column;
 }
 
-.authorbox {
+.authorbox2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.authorbox {
+	display: row;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.authorbox img {
+	display: none;
 }
 
 .stories {
@@ -75,8 +84,20 @@ nav ul {
 
 		.authorbox{
 			display: flex;
+			flex-direction: column;
+			justify-content:flex-start;
+
+		}
+		.authorbox img {
+			display: block;
+	    margin-top: .5em;
+		}
+
+		.authorbox2{
+			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+			max-width: 900px;
 		}
 
 		article {
@@ -179,28 +200,21 @@ nav ul {
 	grid-template-areas:
 	"a b z"
 	"c d y";
-	/* "e g ."
-	"f . z"; */
+
 
 }
 		.homestory1 {
 			grid-area: a;
 		}
-		/* .homestory1text {
-			grid-area: b;
-		} */
+
 		.homestory2 {
 			grid-area: b;
 		}
-		/* .homestory2text {
-			grid-area: d;
-		} */
+
 		.homestory3 {
 			grid-area: c;
 		}
-		/* .homestory3text {
-			grid-area: f;
-		} */
+
 		.homestory4 {
 			grid-area: d;
 		}
@@ -213,6 +227,52 @@ nav ul {
 		}
 
 	}
+
+	@media screen and (min-width:1000px) {
+
+	.articlebody {
+		display: grid;
+		grid-template-columns: .25fr 900px .5fr;
+		grid-gap: 20px;
+		width: 100%;
+		grid-template-areas:
+		"a b z"
+		". c y"
+		". d ."
+		". f .";
+
+
+	}
+			.authorbox {
+				grid-area: a;
+			}
+
+			.section1 {
+				grid-area: b;
+			}
+
+			.section2 {
+				grid-area: c;
+			}
+
+			.section3 {
+				grid-area: d;
+			}
+			.sectionimg {
+				grid-area: e;
+			}
+			.section5 {
+				grid-area: f;
+			}
+
+			.ad1 {
+				grid-area: z;
+			}
+			.ad2 {
+				grid-area: y;
+			}
+
+		}
 /*
 	 .stories {
 		display: grid;
