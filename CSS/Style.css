@@ -165,9 +165,7 @@ nav li {
 	background: #193446;
 }
 
-.headline {
-	margin-bottom: 0;
-}
+
 
 .smallphoto {
 	width: 360px;
@@ -214,16 +212,14 @@ nav li {
 	max-width: 100px;
 }
 
-.authorbox2 img {
-	max-width: 100px;
-}
 
-.authorbox2 {
+
+/* .authorbox2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: 200px;
-}
+} */
 
 article {
 	margin-left: 10px;
@@ -231,6 +227,10 @@ article {
 }
 
 article p {
+	line-height: 1.4em;
+}
+
+.articletext {
 	line-height: 1.4em;
 }
 
