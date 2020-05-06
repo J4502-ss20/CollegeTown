@@ -6,7 +6,17 @@ nav ul {
 	display: none;
 }
 
+.menu-trigger {
+	padding: 10px;
+	height: 20px;
+	width:auto;
+}
+
 #container {
+	width: 95%;
+	margin: 0 auto;
+}
+#bottomcontainer {
 	width: 95%;
 	margin: 0 auto;
 }
@@ -15,20 +25,29 @@ nav ul {
 	display: flex;
 }
 
-.smallphoto {
+/* .smallphoto {
 	display: flex;
 	align-items: center;
-}
+} */
 
 .buttons {
 	display: flex;
 	flex-direction: column;
 }
 
-.authorbox {
+.authorbox2 {
 	display: flex;
 	flex-direction: column;
+	/* justify-content: flex-start; */
+}
+
+.authorbox {
+	display: row;
+	flex-direction: column;
 	justify-content: space-between;
+}
+.authorbox img {
+	display: none;
 }
 
 .stories {
@@ -68,6 +87,10 @@ nav ul {
 			width: 90%;
 			margin: 0 auto;
 		}
+		#bottomcontainer {
+			width: 90%;
+			margin: 0 auto;
+		}
 		.buttons {
 			flex-direction: row;
 			justify-content: center;
@@ -75,8 +98,20 @@ nav ul {
 
 		.authorbox{
 			display: flex;
+			flex-direction: column;
+			justify-content:flex-start;
+
+		}
+		.authorbox img {
+			display: block;
+	    margin-top: .5em;
+		}
+
+		.authorbox2{
+			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
+			justify-content: flex-start;
+			max-width: 900px;
 		}
 
 		article {
@@ -84,12 +119,12 @@ nav ul {
 			max-width: 900px;
 		}
 
-		.smallphoto {
+		/* .smallphoto {
 			padding-left: 20px;
 			padding-right: 20px;
 			padding-top: 20px;
 			padding-bottom: 10px;
-		}
+		} */
 }
 
 @media (min-width:800px) {
@@ -169,38 +204,32 @@ nav ul {
 }
 
 
-@media screen and (min-width:1250px) {
+@media screen and (min-width:800px) {
 
 .indexbody {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
+	grid-gap: 40px;
 	width: 100%;
 	grid-template-areas:
 	"a b z"
-	"c d y";
-	/* "e g ."
-	"f . z"; */
+	"d c e"
+	"f . y";
+
 
 }
 		.homestory1 {
 			grid-area: a;
 		}
-		/* .homestory1text {
-			grid-area: b;
-		} */
+
 		.homestory2 {
 			grid-area: b;
 		}
-		/* .homestory2text {
-			grid-area: d;
-		} */
+
 		.homestory3 {
 			grid-area: c;
 		}
-		/* .homestory3text {
-			grid-area: f;
-		} */
+
 		.homestory4 {
 			grid-area: d;
 		}
@@ -211,8 +240,102 @@ nav ul {
 		.ad2 {
 			grid-area: y;
 		}
+		/* .ad3 {
+			grid-area: x;
+		} */
+		.twitter{
+			grid-area: e;
+		}
+		.facebook{
+			grid-area: f;
+		}
 
 	}
+
+	/* For stories not on the homepage and lack social media embed */
+	@media screen and (min-width:800px) {
+
+	.storybody {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		width: 100%;
+		grid-template-areas:
+		"a b z"
+		"c d y";
+
+
+	}
+			.story1 {
+				grid-area: a;
+			}
+
+			.story2 {
+				grid-area: b;
+			}
+
+			.story3 {
+				grid-area: c;
+			}
+
+			.story4 {
+				grid-area: d;
+			}
+
+			.ad {
+				grid-area: z;
+			}
+			.ad2 {
+				grid-area: y;
+			}
+
+		}
+
+	@media screen and (min-width:1000px) {
+
+	.articlebody {
+		display: grid;
+		grid-template-columns: .25fr 800px 300px;
+		grid-gap: 20px;
+		width: 100%;
+		grid-template-areas:
+		"a b z"
+		". c e"
+		". d y"
+		". f .";
+
+
+	}
+			.authorbox {
+				grid-area: a;
+			}
+
+			.section1 {
+				grid-area: b;
+			}
+
+			.section2 {
+				grid-area: c;
+			}
+
+			.section3 {
+				grid-area: d;
+			}
+			.sectionimg {
+				grid-area: e;
+			}
+			.section5 {
+				grid-area: f;
+			}
+
+			.ad1 {
+				grid-area: z;
+			}
+			.ad2 {
+				grid-area: y;
+			}
+
+		}
 /*
 	 .stories {
 		display: grid;

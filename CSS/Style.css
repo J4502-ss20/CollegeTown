@@ -165,9 +165,7 @@ nav li {
 	background: #193446;
 }
 
-.headline {
-	margin-bottom: 0;
-}
+
 
 .smallphoto {
 	width: 360px;
@@ -206,14 +204,22 @@ nav li {
 	font-family: "Montserrat", Helvetica, sans-serif;
 }
 
-.authorbox{
+/* .authorbox2{
 	margin-top: 0.5em;
-}
+} */
 
 .authorbox img {
-	max-width: 200px;
-	margin: 10px;
+	max-width: 100px;
 }
+
+
+
+/* .authorbox2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 200px;
+} */
 
 article {
 	margin-left: 10px;
@@ -221,6 +227,10 @@ article {
 }
 
 article p {
+	line-height: 1.4em;
+}
+
+.articletext {
 	line-height: 1.4em;
 }
 
@@ -232,10 +242,7 @@ article p {
 }
 
 #button a:hover {
-	color: #193446;
-	background-color: #C4D4E0;
-	border-radius: 5px;
-	padding: 15px;
+	color: #C4D4E0;
 }
 
 #button {
@@ -246,4 +253,8 @@ article p {
 	max-height: 150px;
 	text-align: center;
 	padding: 15px;
+}
+
+.storyphoto {
+	float: center;
 }
