@@ -232,13 +232,13 @@ nav ul {
 
 	.articlebody {
 		display: grid;
-		grid-template-columns: .25fr 900px .5fr;
+		grid-template-columns: .25fr 900px 1fr;
 		grid-gap: 20px;
 		width: 100%;
 		grid-template-areas:
 		"a b z"
 		". c y"
-		". d ."
+		". d e"
 		". f .";
 
 
