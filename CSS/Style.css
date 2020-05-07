@@ -255,6 +255,6 @@ article p {
 	padding: 15px;
 }
 
-.storyphoto {
-	float: center;
+.aboutbody {
+	max-width: 900px;
 }

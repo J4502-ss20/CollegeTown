@@ -336,28 +336,34 @@ nav ul {
 			}
 
 		}
-/*
-	 .stories {
-		display: grid;
-		grid-template-columns: 200px 1fr 1fr;
-    grid-template-areas:
-			"a c c"
-			"b d d";
+
+	@media screen and (min-width:800px) {
+
+		.aboutbody {
+			display: grid;
+			grid-template-columns: 800px 1fr;
+			grid-gap: 20px;
+			width: 100%;
+			grid-template-areas:
+			"a a z"
+			"b b y";
+
+
 		}
+				.sec1 {
+					grid-area: a;
+				}
 
-			.homestory1photo {
-				grid-area: a;
-			}
-			.homestory2photo {
-				grid-area: b;
-			}
-			.homestory1text {
-				grid-area: c;
-			}
-			.homestory2text {
-				grid-area: d;
-			}
+				.sec2 {
+					grid-area: b;
+				}
 
 
-}
-*/
+				.ad1 {
+					grid-area: z;
+				}
+				.ad2 {
+					grid-area: y;
+				}
+
+			}
